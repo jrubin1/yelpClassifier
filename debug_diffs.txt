@@ -1,0 +1,26 @@
+--- ./sample_test/staff_debug_output_hive.txt	2018-10-12 01:23:34.101678000 -0700
++++ ./sample_test/your_debug_output.txt	2018-10-12 14:03:19.529782000 -0700
+@@ -12,13 +12,13 @@
+ 
+ CLASSIFIER OUTPUT:
+ PREDICTED RESULT (review_id, predicted_label, total_log_likelihood):		ACTUAL RESULT (review_id, actual_label):
+-(u'3zNW-BK3YlJnGBdCxpE46g', (3, -210.25011567752392))				(u'3zNW-BK3YlJnGBdCxpE46g', u'1')
+-(u'5D_MsAJHrMa8QKkpE3g1Sg', (3, -121.0226333858536))				(u'5D_MsAJHrMa8QKkpE3g1Sg', u'5')
+-(u'5bWN_IN8MQGjJ6_ZIXffDw', (3, -216.33138036565182))				(u'5bWN_IN8MQGjJ6_ZIXffDw', u'5')
+-(u'7Tai8P6zdnhk7NgcXxM79w', (3, -176.0143937473727))				(u'7Tai8P6zdnhk7NgcXxM79w', u'3')
+-(u'AJ0IglpYAp2D0daOlVGIdg', (3, -237.5417146845221))				(u'AJ0IglpYAp2D0daOlVGIdg', u'1')
+-(u'OyFVGLDZ52Hl8BviXszNrw', (3, -230.39042516457803))				(u'OyFVGLDZ52Hl8BviXszNrw', u'5')
+-(u'U0o92C-o3neVTcE7nSeoeA', (3, -736.6900870483769))				(u'U0o92C-o3neVTcE7nSeoeA', u'1')
+-(u'_03MY3VpWImsHHmDdll0Mw', (3, -171.0729799223184))				(u'_03MY3VpWImsHHmDdll0Mw', u'3')
+-(u'ml9QmqSdQllqSO78RteQfA', (3, -373.5804649804711))				(u'ml9QmqSdQllqSO78RteQfA', u'1')
+-(u'tVUDpVAL1eb9BxUwRgJzyA', (3, -274.93173330317916))				(u'tVUDpVAL1eb9BxUwRgJzyA', u'3')
++(u'3zNW-BK3YlJnGBdCxpE46g', (3, -212.32955721920376))				(u'3zNW-BK3YlJnGBdCxpE46g', u'1')
++(u'3zNW-BK3YlJnGBdCxpE46g', (1, -251.48513916208987))				(u'5D_MsAJHrMa8QKkpE3g1Sg', u'5')
++(u'3zNW-BK3YlJnGBdCxpE46g', (5, -253.74936987676813))				(u'5bWN_IN8MQGjJ6_ZIXffDw', u'5')
++(u'5D_MsAJHrMa8QKkpE3g1Sg', (3, -123.10207492753344))				(u'7Tai8P6zdnhk7NgcXxM79w', u'3')
++(u'5D_MsAJHrMa8QKkpE3g1Sg', (1, -149.04161665642434))				(u'AJ0IglpYAp2D0daOlVGIdg', u'1')
++(u'5D_MsAJHrMa8QKkpE3g1Sg', (5, -139.10027268881728))				(u'OyFVGLDZ52Hl8BviXszNrw', u'5')
++(u'5bWN_IN8MQGjJ6_ZIXffDw', (5, -263.0090401861116))				(u'U0o92C-o3neVTcE7nSeoeA', u'1')
++(u'5bWN_IN8MQGjJ6_ZIXffDw', (3, -218.41082190733167))				(u'_03MY3VpWImsHHmDdll0Mw', u'3')
++(u'5bWN_IN8MQGjJ6_ZIXffDw', (1, -267.54775685147956))				(u'ml9QmqSdQllqSO78RteQfA', u'1')
++(u'7Tai8P6zdnhk7NgcXxM79w', (3, -178.09383528905255))				(u'tVUDpVAL1eb9BxUwRgJzyA', u'3')
